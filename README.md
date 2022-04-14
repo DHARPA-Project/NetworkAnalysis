@@ -39,10 +39,24 @@ Similarly, network graphs and the databases that are used to build them concentr
 
 ## 2.3 Terminology
 
+|    Term   |                                           Description                                          |
+|:---------:|:----------------------------------------------------------------------------------------------:|
+|   Actor   | The entity which is described by a node, e.g. a person, an institution etc.                    |
+|   Broker  | A node which is positioned e.g. between two clusters and can act as a “bottleneck”             |
+| Community | A set of nodes which are relatively more connected to each other than to the rest of the graph |
+| ...       | ...                                                                                            |
+
+For sources see the [links](#7-links) section.
+
 ## 6. License
 See COPYING file in this repository.
 
 ## 7. Links
+
+### Network terminology
+https://cvcedhlab.hypotheses.org/106
+
+https://folgerpedia.folger.edu/Glossary_of_network_analysis_terms
 
 ## 8. References
 
