@@ -33,6 +33,9 @@ Almost everything can be represented in the form of a network. That does not mea
 
 Similarly, network graphs and the databases that are used to build them concentrate on one or a few sort of relationships between a limited set of actors, deliberately ignoring the fact that these actors necessarily have other relationships among themselves and with outsiders. Choices in "boundary specification" (whom do we observe? which ties among them? at what time(s)?) heavily constrain the sort of questions that can be analyzed by network analysis. This implies, on the one hand, that interpretations based on network data should be careful not to reify notions such as centrality or isolation, that are always relative to a choice of relations and actors observed; on the other hand, nothing prevents us to study some sorts of relations thanks to some historical sources, even if they generally do not systematically record all the sorts of relations that we would be interested in.
 
+## 6. License
+See COPYING file in this repository.
+
 ## 10. How to cite
 To cite the repository, please use the following format according to the APA style guide:
 
