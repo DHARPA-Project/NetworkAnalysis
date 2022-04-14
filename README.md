@@ -10,6 +10,8 @@ Network analysis examines relationships among entities, such as persons, institu
    2.1 [Networks are abstractions](#21-networks-are-abstractions)
    
    2.2 [Methods and data](#22-methods-and-data)
+
+   2.3 [Terminology](#23-terminology)
   
 3. [Getting started](#3-getting-started)
 4. [Conclusions](#4-conclusions)
@@ -25,13 +27,17 @@ While the ‘digital humanities moment’ has yielded great accomplishments and 
 
 In this workflow, we aim to promote a self-reflective analysis of the interaction of technology and humanities practice and we use network analysis as a case study.
 
-## 2. Methodological considerations
+## 2. Network analysis and its terminology
 
-Almost everything can be represented in the form of a network. That does not mean that it will be useful or insightful. In the following, I will outline some basic considerations that need to be taken into account when considering network analysis as a method.
+Almost everything can be represented in the form of a network. That does not mean that it will be useful or insightful. In the following, I will outline some basic considerations that need to be taken into account when considering network analysis as a method and introduce the basic teminology.
 
 ## 2.1 Networks are abstractions
 
 Similarly, network graphs and the databases that are used to build them concentrate on one or a few sort of relationships between a limited set of actors, deliberately ignoring the fact that these actors necessarily have other relationships among themselves and with outsiders. Choices in "boundary specification" (whom do we observe? which ties among them? at what time(s)?) heavily constrain the sort of questions that can be analyzed by network analysis. This implies, on the one hand, that interpretations based on network data should be careful not to reify notions such as centrality or isolation, that are always relative to a choice of relations and actors observed; on the other hand, nothing prevents us to study some sorts of relations thanks to some historical sources, even if they generally do not systematically record all the sorts of relations that we would be interested in.
+
+## 2.2 Methods and data
+
+## 2.3 Terminology
 
 ## 6. License
 See COPYING file in this repository.
