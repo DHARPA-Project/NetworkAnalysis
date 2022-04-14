@@ -36,6 +36,12 @@ Similarly, network graphs and the databases that are used to build them concentr
 ## 6. License
 See COPYING file in this repository.
 
+## 7. Links
+
+## 8. References
+
+## 9. The team
+
 ## 10. How to cite
 To cite the repository, please use the following format according to the APA style guide:
 
