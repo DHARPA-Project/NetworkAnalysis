@@ -80,6 +80,18 @@ https://folgerpedia.folger.edu/Glossary_of_network_analysis_terms
 
 ## 8. References
 
+Marten Düring et al., eds., Handbuch Historische Netzwerkforschung: Grundlagen Und Anwendungen, Schriften des Kulturwissenschaftlichen Instituts Essen (KWI) zur Methodenforschung Band 1 (Berlin: LIT, 2016).
+
+Mark Newman, Networks: An Introduction (Oxford University Press, 2010), accessed December 3, 2020, https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199206650.001.0001/acprof-9780199206650.
+
+Deryc T. Painter, Bryan C. Daniels, and Jürgen Jost, “Network Analysis for the Digital Humanities: Principles, Problems, Extensions,” Isis 110, no. 3 (August 30, 2019): 538–554, accessed March 3, 2021, https://www.journals.uchicago.edu/doi/full/10.1086/705532.
+
+John Scott, Social Network Analysis - SAGE Research Methods, 2017, accessed March 11, 2022, https://methods.sagepub.com/book/social-network-analysis-4e.
+
+Stanley Wasserman and Katherine Faust, Social Network Analysis: Methods and Applications, Structural analysis in the social sciences 8 (Cambridge ; New York: Cambridge University Press, 1994).
+
+Katharina A. Zweig, Network Analysis Literacy: A Practical Approach to the Analysis of Networks, 1st ed. 2016., Lecture Notes in Social Networks (Vienna: Springer Vienna : Imprint: Springer, 2016), https://link-springer-com.proxy.bnl.lu/book/10.1007/978-3-7091-0741-6.
+
 ## 9. The team
 
 ## 10. How to cite
