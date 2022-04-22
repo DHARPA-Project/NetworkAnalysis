@@ -33,7 +33,7 @@ Almost everything can be represented in the form of a network. That does not mea
 
 ## 2.1 Networks are abstractions
 
-Similarly, network graphs and the databases that are used to build them concentrate on one or a few sort of relationships between a limited set of actors, deliberately ignoring the fact that these actors necessarily have other relationships among themselves and with outsiders. Choices in "boundary specification" (whom do we observe? which ties among them? at what time(s)?) heavily constrain the sort of questions that can be analyzed by network analysis. This implies, on the one hand, that interpretations based on network data should be careful not to reify notions such as centrality or isolation, that are always relative to a choice of relations and actors observed; on the other hand, nothing prevents us to study some sorts of relations thanks to some historical sources, even if they generally do not systematically record all the sorts of relations that we would be interested in.
+Network graphs and the databases that are usually used to build them concentrate on one or a few sort of relationships between a limited set of actors, deliberately ignoring the fact that these actors necessarily have other relationships among themselves and with outsiders. Choices in "boundary specification" (whom do we observe? which ties among them? at what time(s)?) heavily constrain the sort of questions that can be analyzed by network analysis. This implies, on the one hand, that interpretations based on network data should be careful not to reify notions such as centrality or isolation, that are always relative to a choice of relations and actors observed; on the other hand, nothing prevents us to study some sorts of relations thanks to some historical sources, even if they generally do not systematically record all the sorts of relations that we would be interested in (Lemercier, 2015). 
 
 ## 2.2 Methods and data
 
@@ -81,6 +81,8 @@ https://folgerpedia.folger.edu/Glossary_of_network_analysis_terms
 ## 8. References
 
 Marten Düring et al., eds., Handbuch Historische Netzwerkforschung: Grundlagen Und Anwendungen, Schriften des Kulturwissenschaftlichen Instituts Essen (KWI) zur Methodenforschung Band 1 (Berlin: LIT, 2016).
+
+Claire Lemercier, “Formal Network Methods in History: Why and How?,” in Social Networks, Political Institutions, and Rural Societies, ed. Georg Fertig, Rural history in Europe 11 (Turnhout, Belgium: Brepols, 2015).
 
 Mark Newman, Networks: An Introduction (Oxford University Press, 2010), accessed December 3, 2020, https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199206650.001.0001/acprof-9780199206650.
 
