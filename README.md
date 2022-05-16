@@ -8,10 +8,12 @@ Network analysis examines relationships among entities, such as persons, institu
 2. [Methodological considerations](#2-methodological-considerations)
 
    2.1 [Networks are abstractions](#21-networks-are-abstractions)
-   
-   2.2 [Methods and data](#22-methods-and-data)
 
-   2.3 [Terminology](#23-terminology)
+   2.2 [When should I use Network Analysis?](#22-when-should-i-use-network-analysis)
+   
+   2.3 [Methods and data](#23-methods-and-data)
+
+   2.4 [Terminology](#24-terminology)
   
 3. [Getting started](#3-getting-started)
 4. [Conclusions](#4-conclusions)
@@ -33,11 +35,19 @@ Almost everything can be represented in the form of a network. That does not mea
 
 ## 2.1 Networks are abstractions
 
-Network graphs and the databases that are usually used to build them concentrate on one or a few sort of relationships between a limited set of actors, deliberately ignoring the fact that these actors necessarily have other relationships among themselves and with outsiders. Choices in "boundary specification" (whom do we observe? which ties among them? at what time(s)?) heavily constrain the sort of questions that can be analyzed by network analysis. This implies, on the one hand, that interpretations based on network data should be careful not to reify notions such as centrality or isolation, that are always relative to a choice of relations and actors observed; on the other hand, nothing prevents us to study some sorts of relations thanks to some historical sources, even if they generally do not systematically record all the sorts of relations that we would be interested in (Lemercier, 2015). 
+Network graphs and the databases that are usually used to build them concentrate on one or a few sort of relationships between a limited set of actors, deliberately ignoring the fact that these actors necessarily have other relationships among themselves and with outsiders. Choices in "boundary specification" (whom do we observe? which ties among them? at what time(s)?) heavily constrain the sort of questions that can be analyzed by network analysis. This implies, on the one hand, that interpretations based on network data should be careful not to reify notions such as centrality or isolation, that are always relative to a choice of relations and actors observed; on the other hand, nothing prevents us to study some sorts of relations thanks to some historical sources, even if they generally do not systematically record all the sorts of relations that we would be interested in (Lemercier, 2015).
 
-## 2.2 Methods and data
+## 2.2 When should I use Network Analysis?
 
-## 2.3 Terminology
+Network Analysis is a collection of methods that can be useful to study complex relational patterns. If you are interested in studying such patterns and have already identified them in your sources, then there is a good chance that network analysis will help you to explore and analyse them in greater depth. You might still need to think more carefully about what exactly the entities (nodes) are that you want to study and how exactly the relationships (edges) between them can be expressed and defined. The clearer your conception of these elements, the more solid your network analysis project will be.
+
+In order to be able to do network analysis, your data will need to be in a certain shape. Typically, the data would be retrieved from a database. Some table data might also be easily tweaked into an appropriate format, but if your starting point is a collection of unstructured text (like .txt files) then some preprocessing steps will be necessary to parse the data into a format suitable for network analysis before you can start analysing anything.
+
+A good guide to help answering the question whether or not it is worthwhile and feasible to engage with network analysis can be found here: https://cvcedhlab.hypotheses.org/125
+
+## 2.3 Methods and data
+
+## 2.4 Terminology
 
 |          Term         |                                                                                                                                                   Description                                                                                                                                                  |
 |:---------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
