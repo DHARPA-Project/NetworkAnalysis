@@ -27,7 +27,7 @@ While the ‘digital humanities moment’ has yielded great accomplishments and 
 
 In this workflow, we aim to promote a self-reflective analysis of the interaction of technology and humanities practice and we use network analysis as a case study.
 
-## 2. Network analysis and its terminology
+## 2. Methodological considerations
 
 Almost everything can be represented in the form of a network. That does not mean that it will be useful or insightful. In the following, I will outline some basic considerations that need to be taken into account when considering network analysis as a method and introduce the basic teminology.
 
