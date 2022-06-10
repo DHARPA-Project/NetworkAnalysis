@@ -83,6 +83,10 @@ See COPYING file in this repository.
 
 ## 7. Links
 
+### Introductions to Network Basics
+
+http://www.scottbot.net/HIAL/index.html@p=6279.html
+
 ### Network terminology
 https://cvcedhlab.hypotheses.org/106
 
@@ -99,6 +103,8 @@ Mark Newman, Networks: An Introduction (Oxford University Press, 2010), accessed
 Deryc T. Painter, Bryan C. Daniels, and Jürgen Jost, “Network Analysis for the Digital Humanities: Principles, Problems, Extensions,” Isis 110, no. 3 (August 30, 2019): 538–554, accessed March 3, 2021, https://www.journals.uchicago.edu/doi/full/10.1086/705532.
 
 John Scott, Social Network Analysis - SAGE Research Methods, 2017, accessed March 11, 2022, https://methods.sagepub.com/book/social-network-analysis-4e.
+
+John Scott and Peter Carrington, The SAGE Handbook of Social Network Analysis (London, United Kingdom: SAGE Publications Ltd, 2014), accessed March 11, 2022, http://methods.sagepub.com/book/the-sage-handbook-of-social-network-analysis.
 
 Stanley Wasserman and Katherine Faust, Social Network Analysis: Methods and Applications, Structural analysis in the social sciences 8 (Cambridge ; New York: Cambridge University Press, 1994).
 
