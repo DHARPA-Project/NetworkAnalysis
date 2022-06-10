@@ -83,6 +83,10 @@ See COPYING file in this repository.
 
 ## 7. Links
 
+### Introductions to Network Basics
+
+http://www.scottbot.net/HIAL/index.html@p=6279.html
+
 ### Network terminology
 https://cvcedhlab.hypotheses.org/106
 
