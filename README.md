@@ -104,6 +104,8 @@ Deryc T. Painter, Bryan C. Daniels, and Jürgen Jost, “Network Analysis for th
 
 John Scott, Social Network Analysis - SAGE Research Methods, 2017, accessed March 11, 2022, https://methods.sagepub.com/book/social-network-analysis-4e.
 
+John Scott and Peter Carrington, The SAGE Handbook of Social Network Analysis (London, United Kingdom: SAGE Publications Ltd, 2014), accessed March 11, 2022, http://methods.sagepub.com/book/the-sage-handbook-of-social-network-analysis.
+
 Stanley Wasserman and Katherine Faust, Social Network Analysis: Methods and Applications, Structural analysis in the social sciences 8 (Cambridge ; New York: Cambridge University Press, 1994).
 
 Katharina A. Zweig, Network Analysis Literacy: A Practical Approach to the Analysis of Networks, 1st ed. 2016., Lecture Notes in Social Networks (Vienna: Springer Vienna : Imprint: Springer, 2016), https://link-springer-com.proxy.bnl.lu/book/10.1007/978-3-7091-0741-6.
