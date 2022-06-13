@@ -47,6 +47,14 @@ A good guide to help answering the question whether or not it is worthwhile and 
 
 ## 2.3 Methods and data
 
+### Centralities
+
+
+
+### Community detection
+
+(Malliaros & Vazirgiannis, 2013)
+
 ## 2.4 Terminology
 
 |          Term         |                                                                                                                                                   Description                                                                                                                                                  |
@@ -97,6 +105,8 @@ https://folgerpedia.folger.edu/Glossary_of_network_analysis_terms
 Marten Düring et al., eds., Handbuch Historische Netzwerkforschung: Grundlagen Und Anwendungen, Schriften des Kulturwissenschaftlichen Instituts Essen (KWI) zur Methodenforschung Band 1 (Berlin: LIT, 2016).
 
 Claire Lemercier, “Formal Network Methods in History: Why and How?,” in Social Networks, Political Institutions, and Rural Societies, ed. Georg Fertig, Rural history in Europe 11 (Turnhout, Belgium: Brepols, 2015).
+
+Fragkiskos D. Malliaros and Michalis Vazirgiannis, “Clustering and Community Detection in Directed Networks: A Survey,” Physics Reports 533, no. 4 (2013): 95–142, accessed June 13, 2022, https://linkinghub.elsevier.com/retrieve/pii/S0370157313002822.
 
 Mark Newman, Networks: An Introduction (Oxford University Press, 2010), accessed December 3, 2020, https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199206650.001.0001/acprof-9780199206650.
 
