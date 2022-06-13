@@ -47,6 +47,57 @@ A good guide to help answering the question whether or not it is worthwhile and 
 
 ## 2.3 Methods and data
 
+Some methods, like calculating centralities, or detecting or discovering communities in a network, will be appropriate for all sorts of datasets and a variety of research questions. It does not matter if the network is small or large, if it constitutes a social network or a text network. These methods can provide insights that are otherwise difficult to obtain and can raise new research questions. However, the meaning and interpretation of the results of these methods can be very specific to the individual network. In the following, I will describe approaches to calculate centralities and to detect communities in a realtively abstract way. Ideas on how some of the results can be interpreted in light of a case specific research question can be found in the various Jupyter notebooks in this repository.
+
+As with many other methodological choices in network analysis, the choice of the graph type (directed, undirected etc.) can substantially affect the results of centrality measures and community detection outcomes. Which choice or combination makes the most sense will depend on the research question. Some researchers will want to investigate different aspects of their network and explore their data in the form of different graph types. Others will have a more narrow research question and focus on one set of methods tailored to one particular graph type.
+Generally speaking, research questions focusing on the analysis of "structure" will indicate a preference for an undirected graph, while the focus on "flow" will indicate a directed network and imply the use of the associated methods. Those are not necessarily mutually exclusive, and a more general research question would entail that a researcher investigates both structure and flow.
+
+### Calculating Centralities
+
+One of the most common operations in network analysis is to identify important nodes.
+What makes a node important depends on your network and your notion of importance.
+An important node might be a node that has the most connections. A node
+with one connection has a degree of one and degree centrality is a way for calculating a normalized value for this measure. 
+Another kind of “importance” is betweenness-centrality. It indicates a node
+that lies between two distinct parts of a network (A node through which most "shortest paths" pass through). A node with high betweenness centrality
+can indicate that the node is a “broker” or a “gatekeeper”. 
+
+Here are some (but not all!) of the more popular centrality measures:
+
+**Closeness centrality** is measuring how close a node is located with respect to every other node in the network.
+
+**Degree centrality** is a measure to identify the nodes which have the most connections in the network, they are often interpreted as **hubs**.
+
+**Betweenness centrality** looks at all the shortest paths that pass through a particular node. It is expressed on a scale of 0 to 1 and is good at finding nodes that connect two otherwise disparate parts of a network. 
+In contrast to a **hub**, this sort of node is often referred to as a **broker** because the value can be interpreted as indicating a node with an active brokering role in the network.
+
+**Eigenvector centrality** considers if a node has many direct connections on its own, but it also considers how it is connected to other highly connected nodes. It’s calculated as a value from 0 to 1: the closer to one, the greater the centrality. In information networks, eigenvector centrality is useful for understanding which nodes can get information to many other nodes quickly. If you know a lot of well-connected people, you could spread a message very efficiently.
+
+It is important to note that all these different labels (hubs, brokers) constitute **interpretations** of the obtained numbers and generate assumptions about the roles of individual actors in a network.
+Edge **weights** can significantly alter some of these centrality measures and yield very different rankings in terms of centrality. Because weights are interpreted as the "connection strength" in some measures and as "distance" (or cost) in other measures, it is important to adjust calculations according to the type of network. For example, this can imply that it might be appropriate to invert the egde weights when calculating weighted betweenness centrality in an information network. 
+
+Depending on the choice of centrality, very different nodes in a network can be identified as "important" in one way or other (Ortiz-Arroyo, 2010):
+
+![image](https://user-images.githubusercontent.com/53467834/173307418-51d741b3-fff3-4708-ad4e-987653534d29.png)
+
+
+### Detecting Communities
+
+Community detection is a popular operation in network analysis, especially with social
+networks like social media groups, but it also has its uses with text networks.
+This method idetifies groups of nodes that belong together based on one or several properties of the graph.
+By partitioning the graph into distinct communities, it is possible to detect node characteristics that are otherwise not recorded (as node attributes) or not easily discernible.
+If nothing else, this method can help to raise new questions about the network and initiate a search for the unknown common denominators among the nodes that were placed in the same community according to the partition of the community detection algorithm.
+
+A common approach is to identify communities by searching for node clusters in a network that have a notably higher density. These density clusters can then be interpreted as distinct communities within the network.
+
+There are specialized methods to detect communities in **directed networks**. In most cases, those methods would rely on analyzing flow rather than structure. Depending on the data and research question, it can be very misleading to use community detection algorithms on directed graphs that have been originally developed for undirected graphs ("It is clear that ignoring edge directionality and considering the graph as undirected is not a meaningful
+way to cluster directed networks as it fails to capture the asymmetric relationships implied by the edges
+of a directed network." (Malliaros & Vazirgiannis, 2013)).
+A flow-based community detection algorithm (like the "infomap" algorithm) can, for example, detect citation patterns in citation networks.
+
+It is also possible to search for **overlapping communities** where nodes belong to more than one group. Some methods can be found here: https://cdlib.readthedocs.io/en/latest/overview.html
+
 ## 2.4 Terminology
 
 |          Term         |                                                                                                                                                   Description                                                                                                                                                  |
@@ -98,7 +149,11 @@ Marten Düring et al., eds., Handbuch Historische Netzwerkforschung: Grundlagen
 
 Claire Lemercier, “Formal Network Methods in History: Why and How?,” in Social Networks, Political Institutions, and Rural Societies, ed. Georg Fertig, Rural history in Europe 11 (Turnhout, Belgium: Brepols, 2015).
 
+Fragkiskos D. Malliaros and Michalis Vazirgiannis, “Clustering and Community Detection in Directed Networks: A Survey,” Physics Reports 533, no. 4 (2013): 95–142, accessed June 13, 2022, https://linkinghub.elsevier.com/retrieve/pii/S0370157313002822.
+
 Mark Newman, Networks: An Introduction (Oxford University Press, 2010), accessed December 3, 2020, https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199206650.001.0001/acprof-9780199206650.
+
+Daniel Ortiz-Arroyo, “Discovering Sets of Key Players in Social Networks,” in Computational Social Network Analysis, ed. Ajith Abraham, Aboul-Ella Hassanien, and Vaclav Sná¿el (London: Springer London, 2010), 27–47, accessed March 17, 2021, http://link.springer.com/10.1007/978-1-84882-229-0_2.
 
 Deryc T. Painter, Bryan C. Daniels, and Jürgen Jost, “Network Analysis for the Digital Humanities: Principles, Problems, Extensions,” Isis 110, no. 3 (August 30, 2019): 538–554, accessed March 3, 2021, https://www.journals.uchicago.edu/doi/full/10.1086/705532.
 
